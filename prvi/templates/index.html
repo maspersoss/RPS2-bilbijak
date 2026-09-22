@@ -7,5 +7,11 @@
 </head>
 <body>
     
+	{% if podatki ['uspeh'] %}
+	<i>Uspešno sem se povezal na DB.</i>
+	{% else %}
+	<i><b>Neuspešno</b> sem se povezal na DB.</i>
+	{% endif %}
+	
 </body>
 </html>
